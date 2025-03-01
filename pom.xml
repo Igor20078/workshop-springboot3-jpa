@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.2</version> <!-- Garantindo que está usando uma versão do Spring Boot compatível com Java 17 -->
+        <version>3.4.3</version> <!-- Garantindo que está usando uma versão do Spring Boot compatível com Java 17 -->
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -63,13 +63,13 @@
 
 	<!-- Configuração do Maven para Spring Boot -->
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>3.4.2</version><!--$NO-MVN-MAN-VER$--> <!-- Especificando a versão do plugin, para evitar qualquer problema -->
-            </plugin>
-        </plugins>
-    </build>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
+
 
 </project>
